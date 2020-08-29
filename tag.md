@@ -1,6 +1,7 @@
 ---
 layout: default
 title: tag
+permalink: /tag/
 ---
 
 {%for post in site.posts %}
