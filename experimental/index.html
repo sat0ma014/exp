@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Experimental – Awesome SAT0MA014 – Web Developer from Somewhere</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Web Developer from Somewhere">
+    <meta property="og:description" content="Web Developer from Somewhere" />
+    
+    <meta name="author" content="Awesome SAT0MA014" />
+
+    
+    <meta property="og:title" content="Experimental" />
+    <meta property="twitter:title" content="Experimental" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Awesome SAT0MA014 - Web Developer from Somewhere" href="/feed.xml" />
+    <script src="https://kit.fontawesome.com/b640572b1e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <script src="https://unpkg.com/mermaid@8.0.0/dist/mermaid.min.js"></script>
+    <script>
+      const mermaiding = function() {
+        const elements = document.querySelectorAll("pre>code.language-mermaid");
+        for (let i = 0; i < elements.length; i++) {
+          const e = elements[i];
+          const pre = e.parentElement;
+          const replace = function(graph) {
+            const elem = document.createElement('div');
+            elem.innerHTML = graph;
+            elem.className = 'mermaid';
+            elem.setAttribute('data-processed', 'true');
+            pre.parentElement.replaceChild(elem, pre);
+          }
+          mermaid.mermaidAPI.render('id' + i, e.textContent, replace);
+        }
+      }
+if (document.readyState == 'interactive' || document.readyState == 'complete') {
+  mermaiding();
+}else{
+  document.addEventListener("DOMContentLoaded", mermaiding);
+}
+    </script>
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/" class="site-avatar"><img src="https://pbs.twimg.com/profile_images/1265422036928589824/C0gsMiqY_400x400.jpg" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Awesome SAT0MA014</a></h1>
+            <p class="site-description">Web Developer from Somewhere</p>
+          </div>
+
+          <nav>
+            <span>
+              <a href="/">Blog</a>
+              <a href="/about">About</a>
+              <a href="/guide">Guide</a>
+              <a href="/tag">Tag</a>
+              <a href="/date">Date</a>
+            </span>
+            <br />
+            <span>
+              <a href="/"></a>
+              <a href="/"></a>
+              <a href="/"></a>
+            </span>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <style>
+.btn-share a[class*="entypo-"]:before,
+span[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix { *zoom: 1; }
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;	
+}
+.clearfix:after { clear: both; }
+
+.sb-container {
+  height: 64px;
+  left: 50%;
+  margin: -32px 0 0 -152px;
+  position: absolute;
+  top: 50%;
+  width: 304px;
+}
+</style>
+<script>(function() {
+
+  $('.share').on('click', function(e) {
+
+    e.preventDefault();
+
+    var $this = $(this);
+
+    $this.animate({
+      'width': $this.width() == 304 ? '64px' : '304px'
+    }, 300, 'swing');
+
+  });
+
+} () );
+</script>
+<div class="sb-container">
+  <ul class="btn-share clearfix">
+    <li>
+      <a href="#" class="button share entypo-share"></a>
+    </li>
+    <li>
+      <a href="https://twitter.com/berkpw" class="button twitter entypo-twitter" target="_blank"></a>
+    </li>
+    <li>
+      <a href="https://www.facebook.com/share.php?u=" class="button facebook entypo-facebook" target="_blank"></a>
+    </li>
+    <li>
+      <a href="https://plus.google.com/" class="button google entypo-gplus" target="_blank"></a>
+    </li>
+  </ul>
+</div>	
+
+
+<br />
+
+<style>$fbBlue: #3b5998;
+$ytRed: #b00;
+$twBlue: #55acee;
+$igBlue: #125688;
+$ghBlack: #000;
+$cpBlack: #000;
+$scOrange: #f50;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: rgb(200,70,90);
+}
+
+#social-container {
+  width: 410px;
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+display: block;
+  margin-top: 25vh;
+}
+
+.social-button {
+  color: white;
+  display: inline-block;
+  padding: 5px;
+  vertical-align: middle;
+  text-align: center;
+  min-width: 38px;
+  width: 38px;
+  height: 38px;
+  position: relative;
+  line-height: 28px;
+  overflow: hidden;
+  white-space: nowrap;
+
+  transition: width 300ms ease;
+  -webkit-transition: width 300ms ease;
+
+  i {
+    vertical-align: middle;
+    position: relative;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+  }
+  
+  span {
+    display: inline-block;
+    font-family: Geneva, Helvetica, sans-serif;
+    font-size: 16px;
+    vertical-align: middle;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    transition: width 300ms ease;
+  }
+
+  &.fb {
+    background: $fbBlue;
+  }
+  &.yt {
+    background: $ytRed;
+  }
+  &.tw {
+    background: $twBlue;
+  }
+  &.sc {
+    background: $scOrange;
+  }
+  &.ig {
+    background: $igBlue;
+  }
+  &.cp {
+    background: $cpBlack;
+  }
+  &.gh {
+    background: $ghBlack;
+  }
+}
+</style>
+
+
+<div id="social-container">
+  <a href="#">
+    <div class="social-button fb">
+      <i class="fa fa-facebook fa-lg"></i><span>Facebook</span>
+    </div>
+  </a>
+  <!--
+  --><a href="#">
+    <div class="social-button cp">
+      <i class="fa fa-codepen fa-lg"></i><span>CodePen</span>
+    </div>
+  </a>
+  <!--
+  --><a href="#">
+    <div class="social-button yt">
+      <i class="fa fa-youtube fa-lg"></i><span>YouTube</span>
+    </div>
+  </a>
+  <!--
+  --><a href="#">
+    <div class="social-button tw">
+      <i class="fa fa-twitter fa-lg"></i><span>Twitter</span>
+    </div>
+  </a>
+  <!--
+  --><a href="#">
+    <div class="social-button sc">
+      <i class="fa fa-soundcloud fa-lg"></i><span>SoundCloud</span>
+    </div>
+  </a>
+  <!--
+  --><a href="#">
+    <div class="social-button ig">
+      <i class="fa fa-instagram fa-lg"></i><span>Instagram</span>
+    </div>
+  </a>
+  <!--
+  --><a href="#">
+    <div class="social-button gh">
+      <i class="fa fa-github fa-lg"></i><span>GitHub</span>
+    </div>
+  </a>
+</div>
+
+<div class="sns-share">
+  <ul class="sns-share__list">
+    <li class="sns-share__item">
+      <a
+        class="sns-share__btn sns-share__btn--fb"
+        href="https://www.facebook.com/sharer/sharer.php?u=https://sat0ma014.github.io/experimental/"
+        target="_blank"
+        ><i class="fa fa-facebook fa-big"></i
+      ></a>
+    </li>
+    <li class="sns-share__item">
+      <a
+        class="sns-share__btn sns-share__btn--tw"
+        href='https://twitter.com/intent/tweet?url=https://sat0ma014.github.io/experimental/&text=Experimental'
+        target="_blank"
+        ><i class="fa fa-twitter fa-big"></i
+      ></a>
+    </li>
+    <li class="sns-share__item">
+      <a
+        class="sns-share__btn sns-share__btn--line"
+        href='http://line.me/R/msg/text/?Experimental\nhttps://sat0ma014.github.io/experimental/'
+        target="_blank"
+        >LINE</a
+      >
+    </li>
+    <li class="sns-share__item">
+      <a
+        class="sns-share__btn sns-share__btn--hb"
+        href="http://b.hatena.ne.jp/add?mode=confirm&url=https://sat0ma014.github.io/experimental/&title=Experimental"
+        target="_blank"
+        >B!</a
+      >
+    </li>
+    <li class="sns-share__item">
+      <a
+        class="sns-share__btn sns-share__btn--po"
+        href="http://getpocket.com/edit?url=https://sat0ma014.github.io/experimental/&title=Experimental"
+        target="_blank"
+        ><i class="fa fa-get-pocket fa-big"></i
+      ></a>
+    </li>
+    <li class="sns-share__item">
+      <a
+        class="sns-share__btn sns-share__btn--copy js-url-copy"
+        data-clipboard-text='Experimental\nhttps://sat0ma014.github.io/experimental/'
+        ><i class="fa fa-clipboard"></i> copy</a
+      >
+    </li>
+  </ul>
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new ClipboardJS('.js-url-copy')
+  })
+</script>
+
+
+    </div>
+    <div class="sns-share">
+  <ul class="sns-share__list">
+    <li class="sns-share__item">
+      <a
+        class="sns-share__btn sns-share__btn--fb"
+        href="https://www.facebook.com/sharer/sharer.php?u=https://sat0ma014.github.io/experimental/"
+        target="_blank"
+        ><i class="fa fa-facebook fa-big"></i
+      ></a>
+    </li>
+    <li class="sns-share__item">
+      <a
+        class="sns-share__btn sns-share__btn--tw"
+        href='https://twitter.com/intent/tweet?url=https://sat0ma014.github.io/experimental/&text=Experimental'
+        target="_blank"
+        ><i class="fa fa-twitter fa-big"></i
+      ></a>
+    </li>
+    <li class="sns-share__item">
+      <a
+        class="sns-share__btn sns-share__btn--line"
+        href='http://line.me/R/msg/text/?Experimental\nhttps://sat0ma014.github.io/experimental/'
+        target="_blank"
+        >LINE</a
+      >
+    </li>
+    <li class="sns-share__item">
+      <a
+        class="sns-share__btn sns-share__btn--hb"
+        href="http://b.hatena.ne.jp/add?mode=confirm&url=https://sat0ma014.github.io/experimental/&title=Experimental"
+        target="_blank"
+        >B!</a
+      >
+    </li>
+    <li class="sns-share__item">
+      <a
+        class="sns-share__btn sns-share__btn--po"
+        href="http://getpocket.com/edit?url=https://sat0ma014.github.io/experimental/&title=Experimental"
+        target="_blank"
+        ><i class="fa fa-get-pocket fa-big"></i
+      ></a>
+    </li>
+    <li class="sns-share__item">
+      <a
+        class="sns-share__btn sns-share__btn--copy js-url-copy"
+        data-clipboard-text='Experimental\nhttps://sat0ma014.github.io/experimental/'
+        ><i class="fa fa-clipboard"></i> copy</a
+      >
+    </li>
+  </ul>
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new ClipboardJS('.js-url-copy')
+  })
+</script>
+
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+<a href="mailto:satomakoto@protonmail.com"><i class="svg-icon email"></i></a>
+
+
+<a href="https://github.com/sat0ma014"><i class="svg-icon github"></i></a>
+<a href="https://instagram.com/sat0ma014"><i class="svg-icon instagram"></i></a>
+<a href="https://www.linkedin.com/in/まこと-さとう-13aa541b6"><i class="svg-icon linkedin"></i></a>
+<a href="https://www.pinterest.com/sat0ma014"><i class="svg-icon pinterest"></i></a>
+<a href="/feed.xml"><i class="svg-icon rss"></i></a>
+<a href="https://www.twitter.com/satomakoto14"><i class="svg-icon twitter"></i></a>
+
+
+
+        </footer>
+      </div>
+    </div>
+
+    
+
+  </body>
+</html>

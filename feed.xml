@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://sat0ma014.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sat0ma014.github.io/" rel="alternate" type="text/html" /><updated>2020-09-17T23:37:56+00:00</updated><id>https://sat0ma014.github.io/feed.xml</id><title type="html">Awesome SAT0MA014</title><subtitle>Web Developer from Somewhere</subtitle><entry><title type="html">簡単にhttpサーバを起動する</title><link href="https://sat0ma014.github.io/2020/09/10/easy-http-serv.html" rel="alternate" type="text/html" title="簡単にhttpサーバを起動する" /><published>2020-09-10T00:00:00+00:00</published><updated>2020-09-10T00:00:00+00:00</updated><id>https://sat0ma014.github.io/2020/09/10/easy-http-serv</id><content type="html" xml:base="https://sat0ma014.github.io/2020/09/10/easy-http-serv.html">&lt;div class=&quot;bc-1&quot;&gt;
+  &lt;div class=&quot;bc-2&quot;&gt;
+    &lt;a href=&quot;https://qiita.com/sudahiroshi/items/e74d61d939f18779970d&quot; class=&quot;bc-3&quot;&gt;
+	  &lt;img src=&quot;https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn.qiita.com%2Fassets%2Fpublic%2Farticle-ogp-background-1150d8b18a7c15795b701a55ae908f94.png?ixlib=rb-1.2.2&amp;amp;w=1200&amp;amp;mark=https%3A%2F%2Fqiita-user-contents.imgix.net%2F~text%3Fixlib%3Drb-1.2.2%26w%3D840%26h%3D380%26txt%3D%25E3%2583%25AF%25E3%2583%25B3%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%258A%25E3%2583%25BCWeb%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E3%2582%2592%25E9%259B%2586%25E3%2582%2581%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%26txt-color%3D%2523333%26txt-font%3DHiragino%2520Sans%2520W6%26txt-size%3D54%26txt-clip%3Dellipsis%26txt-align%3Dcenter%252Cmiddle%26s%3D48b92873bcfade2f2d3b69339d1e7818&amp;amp;mark-align=center%2Cmiddle&amp;amp;blend=https%3A%2F%2Fqiita-user-contents.imgix.net%2F~text%3Fixlib%3Drb-1.2.2%26w%3D840%26h%3D500%26txt%3D%2540sudahiroshi%26txt-color%3D%2523333%26txt-font%3DHiragino%2520Sans%2520W6%26txt-size%3D45%26txt-align%3Dright%252Cbottom%26s%3D3d9b30f87832b224eca9e3cccdbdfafa&amp;amp;blend-align=center%2Cmiddle&amp;amp;blend-mode=normal&amp;amp;s=d12f64f38b0aff43d060abf0d7d5ef09&quot; class=&quot;bc-4&quot; /&gt;
+	&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;p style=&quot;margin:0;&quot;&gt;
+    &lt;a href=&quot;https://qiita.com/sudahiroshi/items/e74d61d939f18779970d&quot; class=&quot;bc-5&quot;&gt;ワンライナーWebサーバを集めてみた - Qiita&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p class=&quot;bc-6&quot;&gt;ワンライナーWebサーバを集めてみた.クライアントサイドのJavaScriptをいじっていて，不意にローカルファイルでは実行できない領域に踏み込んでしまうことがあると思います．最近では，HTTPSが必須であったり，HTTP2を使...&lt;/p&gt;
+  &lt;div class=&quot;bc-7&quot;&gt;
+    &lt;p class=&quot;bc-8&quot;&gt;
+      &lt;img src=&quot;http://favicon.hatena.ne.jp/?url=https://qiita.com/sudahiroshi/items/e74d61d939f18779970d&quot; class=&quot;bc-favicon&quot; /&gt;qiita.com&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://qiita.com/sudahiroshi/items/e74d61d939f18779970d&quot; class=&quot;bc-hatebu&quot; /&gt;
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Python が一番簡単。&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;python &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; SimpleHTTPServer&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;python &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; http.server 8000 &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;dir&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><category term="http" /><category term="serv" /><category term="python" /><category term="ruby" /><category term="server" /><category term="bookmark" /><summary type="html">ワンライナーWebサーバを集めてみた - Qiita ワンライナーWebサーバを集めてみた.クライアントサイドのJavaScriptをいじっていて，不意にローカルファイルでは実行できない領域に踏み込んでしまうことがあると思います．最近では，HTTPSが必須であったり，HTTP2を使... qiita.com Python が一番簡単。 python -m SimpleHTTPServer python -m http.server 8000 -d dir</summary></entry><entry><title type="html">mermaid.js</title><link href="https://sat0ma014.github.io/2020/09/01/mermaid2.html" rel="alternate" type="text/html" title="mermaid.js" /><published>2020-09-01T00:00:00+00:00</published><updated>2020-09-01T00:00:00+00:00</updated><id>https://sat0ma014.github.io/2020/09/01/mermaid2</id><content type="html" xml:base="https://sat0ma014.github.io/2020/09/01/mermaid2.html">&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;repo&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;https://github.com/mermaid-js/mermaid&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;参考&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;https://fairplus.github.io/the-fair-cookbook/1/mermaidsetup.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;jekyll-mermaid&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;https://github.com/jasonbellamy/jekyll-mermaid&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;usage&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;https://mermaid-js.github.io/mermaid/#/&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul class=&quot;section-nav&quot;&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;記法&quot;&gt;記法&lt;/h1&gt;
+
+&lt;h3 id=&quot;ノード接続点&quot;&gt;ノード（接続点）&lt;/h3&gt;
+
+&lt;script src=&quot;js/mermaid.js&quot;&gt;&lt;/script&gt;
+&lt;div class=&quot;mermaid&quot;&gt;
+graph TD
+    ノード
+    ノード1[テキスト入りノード]
+    ノード2(丸括弧形ノード)
+    ノード3((円形ノード))
+    ノード4&amp;gt;非対称形ノード]
+    ノード5{ひし形ノード}
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-plaintext&quot; data-lang=&quot;plaintext&quot;&gt;graph TD
+    ノード
+    ノード1[テキスト入りノード]
+    ノード2(丸括弧形ノード)
+    ノード3((円形ノード))
+    ノード4&amp;gt;非対称形ノード]
+    ノード5{ひし形ノード}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;リンク接続&quot;&gt;リンク（接続）&lt;/h3&gt;
+&lt;p&gt;|矢印付きリンク||
+|オープンリンク||
+|リンク上テキスト||
+|矢印とテキストのリンク||
+|点線リンク||
+|点線リンク上テキスト||
+|太線リンク||
+|太線上のテキスト||
+|特殊文字コード使用||
+|特殊文字詳細は、こちら||
+|特殊文字変換ツールはこちら||&lt;/p&gt;
+
+&lt;script src=&quot;js/mermaid.js&quot;&gt;&lt;/script&gt;
+&lt;div class=&quot;mermaid&quot;&gt;
+graph TD
+    鈴木--&amp;gt;田中
+    佐藤---高橋
+    渡辺---|仲良し|伊藤
+    中村--&amp;gt;|好き|山本
+    小林-.-&amp;gt;加藤
+    佐々木-.気になる.-&amp;gt;山田
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-plaintext&quot; data-lang=&quot;plaintext&quot;&gt;graph TD
+    鈴木--&amp;gt;田中
+    佐藤---高橋
+    渡辺---|仲良し|伊藤
+    中村--&amp;gt;|好き|山本
+    小林-.-&amp;gt;加藤
+    佐々木-.気になる.-&amp;gt;山田&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;script src=&quot;js/mermaid.js&quot;&gt;&lt;/script&gt;
+&lt;div class=&quot;mermaid&quot;&gt;
+graph TD
+    斉藤==&amp;gt;松本
+    井上==嫌い==&amp;gt;木村
+    A[&quot;クローバーマーク&amp;clubs;&quot;] --&amp;gt;B[&quot;顔文字(/・&amp;omega;・)/&quot;]
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-plaintext&quot; data-lang=&quot;plaintext&quot;&gt;graph TD
+    斉藤==&amp;gt;松本
+    井上==嫌い==&amp;gt;木村
+    A[&quot;クローバーマーク&amp;amp;clubs;&quot;] --&amp;gt;B[&quot;顔文字(/・&amp;amp;omega;・)/&quot;]&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;サブグラフ&quot;&gt;サブグラフ&lt;/h4&gt;
+&lt;script src=&quot;js/mermaid.js&quot;&gt;&lt;/script&gt;
+&lt;div class=&quot;mermaid&quot;&gt;
+graph TB
+    神--&amp;gt;従人
+    神--&amp;gt;部下
+    subgraph Cクラス
+    支配者--&amp;gt;従人
+    end
+    subgraph Bクラス
+    リーダー--&amp;gt;部下
+    end
+    subgraph Aクラス
+    神--&amp;gt;信者
+    end
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-plaintext&quot; data-lang=&quot;plaintext&quot;&gt;graph TB
+    神--&amp;gt;従人
+    神--&amp;gt;部下
+    subgraph Cクラス
+    支配者--&amp;gt;従人
+    end
+    subgraph Bクラス
+    リーダー--&amp;gt;部下
+    end
+    subgraph Aクラス
+    神--&amp;gt;信者
+    end&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;動き&quot;&gt;動き&lt;/h4&gt;
+&lt;script src=&quot;js/mermaid.js&quot;&gt;&lt;/script&gt;
+&lt;div class=&quot;mermaid&quot;&gt;
+graph LR
+    A--&amp;gt;Google
+    click A callback &quot;クリック&quot;
+    click Google &quot;https://www.google.co.jp/&quot; &quot;リンク指定&quot;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-plaintext&quot; data-lang=&quot;plaintext&quot;&gt;graph LR
+    A--&amp;gt;Google
+    click A callback &quot;クリック&quot;
+    click Google &quot;https://www.google.co.jp/&quot; &quot;リンク指定&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;スタイル指定&quot;&gt;スタイル指定&lt;/h4&gt;
+&lt;script src=&quot;js/mermaid.js&quot;&gt;&lt;/script&gt;
+&lt;div class=&quot;mermaid&quot;&gt;
+graph LR
+    start(開始)--&amp;gt;stop(完了)
+    style start fill:#f9f,stroke:#333,stroke-width:4px
+    style stop fill:#ccf,stroke:#f66,stroke-width:2px,stroke-dasharray: 5, 5
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-plaintext&quot; data-lang=&quot;plaintext&quot;&gt;graph LR
+    start(開始)--&amp;gt;stop(完了)
+    style start fill:#f9f,stroke:#333,stroke-width:4px
+    style stop fill:#ccf,stroke:#f66,stroke-width:2px,stroke-dasharray: 5, 5&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;フローチャート&quot;&gt;フローチャート&lt;/h3&gt;
+&lt;p&gt;フローチャートを作成の際には、「graph タイプ」で指定
+指定タイプは、下記。
+TB - 上から下
+BT - 下から上
+RL - 右から左
+LR - 左から右
+下記は、上から下への流れを示すフローチャート
+&lt;script src=&quot;js/mermaid.js&quot;&gt;&lt;/script&gt;&amp;lt;div class=&quot;mermaid&quot;&amp;gt;
+graph TB
+    A–&amp;gt;B
+    A–&amp;gt;C
+    A–&amp;gt;D
+    B–&amp;gt;E
+    B–&amp;gt;F
+    C–&amp;gt;F
+    C–&amp;gt;G
+    D–&amp;gt;G
+    D–&amp;gt;H
+&amp;lt;/div&amp;gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-plaintext&quot; data-lang=&quot;plaintext&quot;&gt;graph TB
+    A--&amp;gt;B
+    A--&amp;gt;C
+    A--&amp;gt;D
+    B--&amp;gt;E
+    B--&amp;gt;F
+    C--&amp;gt;F
+    C--&amp;gt;G
+    D--&amp;gt;G
+    D--&amp;gt;H&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;下記は、左から右への流れを示すフローチャート
+※同じノード（接続点）があれば、自動的に流れを示す。
+graph LR
+    A–&amp;gt;B
+    B–&amp;gt;C
+    C–&amp;gt;D
+    D–&amp;gt;E
+    E–&amp;gt;F
+    F–&amp;gt;G
+    G–&amp;gt;H
+    H–&amp;gt;I
+    I–&amp;gt;A
+image.png&lt;/p&gt;
+&lt;h3 id=&quot;シーケンス図&quot;&gt;シーケンス図&lt;/h3&gt;
+&lt;h4 id=&quot;最初にsequencediagramを指定する&quot;&gt;最初に「sequenceDiagram」を指定する。&lt;/h4&gt;
+&lt;p&gt;sequenceDiagram
+    クライアント-»サーバー: 要求
+    サーバー–»クライアント: 送信
+image.png&lt;/p&gt;
+&lt;h4 id=&quot;ライフライン参加者を定義することもできる&quot;&gt;ライフライン（参加者）を定義することもできる。&lt;/h4&gt;
+&lt;h4 id=&quot;エイリアス変数や名前を指定することもできる&quot;&gt;エイリアス（変数や名前）を指定することもできる。&lt;/h4&gt;
+&lt;p&gt;sequenceDiagram
+    participant クライアント
+    participant sv as サーバー
+    participant db as データベース
+    # データ取得コード
+    クライアント -» sv : 要求
+    sv -» db : 発行
+    db –» sv : 結果
+    sv –» クライアント : 結果
+    alt 正常終了
+        Note over クライアント : 取得データ表示
+    else エラー
+        Note over クライアント : エラー表示
+    end
+image.png
+実行仕様（イベント）を追加できる。
+sequenceDiagram
+    クライアント-»+サーバー: 要求
+    サーバー–»-クライアント: 送信
+image.png
+ノート（メモ）を追加できる。
+sequenceDiagram
+    クライアント-»+サーバー: 要求
+    Note right of サーバー: これは基本処理です
+    サーバー–»-クライアント: 送信
+image.png
+sequenceDiagram
+    クライアント-»+サーバー: 要求
+    Note over クライアント,サーバー: きちんと返してくれるかな。
+    サーバー–»-クライアント: 送信
+image.png&lt;/p&gt;
+&lt;h4 id=&quot;ループ表現可能&quot;&gt;ループ表現可能&lt;/h4&gt;
+&lt;script src=&quot;js/mermaid.js&quot;&gt;&lt;/script&gt;
+&lt;div class=&quot;mermaid&quot;&gt;
+sequenceDiagram
+    クライアント-&amp;gt;&amp;gt;+サーバー: 要求
+    loop ループ処理
+        サーバー--&amp;gt;&amp;gt;-クライアント: 送信
+    end
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-plaintext&quot; data-lang=&quot;plaintext&quot;&gt;sequenceDiagram
+    クライアント-&amp;gt;&amp;gt;+サーバー: 要求
+    loop ループ処理
+        サーバー--&amp;gt;&amp;gt;-クライアント: 送信
+    end&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;条件分岐可能&quot;&gt;条件分岐可能&lt;/h4&gt;
+&lt;script src=&quot;js/mermaid.js&quot;&gt;&lt;/script&gt;
+&lt;div class=&quot;mermaid&quot;&gt;
+sequenceDiagram
+    participant cl as クライアント
+    participant sv as サーバー
+    cl-&amp;gt;&amp;gt;sv: 要求
+    alt 正常
+        sv-&amp;gt;&amp;gt;cl: 送信
+    else 異常
+        sv-&amp;gt;&amp;gt;cl: ダメ
+    end
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-plaintext&quot; data-lang=&quot;plaintext&quot;&gt;sequenceDiagram
+    participant cl as クライアント
+    participant sv as サーバー
+    cl-&amp;gt;&amp;gt;sv: 要求
+    alt 正常
+        sv-&amp;gt;&amp;gt;cl: 送信
+    else 異常
+        sv-&amp;gt;&amp;gt;cl: ダメ
+    end&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;ガントチャート&quot;&gt;ガントチャート&lt;/h3&gt;
+&lt;p&gt;最初に「gant」を指定する。
+&lt;script src=&quot;js/mermaid.js&quot;&gt;&lt;/script&gt;&amp;lt;div class=&quot;mermaid&quot;&amp;gt;
+gantt
+    dateFormat  YYYY-MM-DD
+    title タスク管理
+    section 田中
+    完了タスク            :done,    des1, 2019-01-06,2019-01-08
+    作業中タスク               :active,  des2, 2019-01-09, 3d
+    予定タスク               :         des3, after des2, 5d
+    予定タスク2              :         des4, after des3, 5d
+    section 鈴木
+    完了タスク            :done,    des1, 2019-01-06,2019-01-10
+    作業中タスク               :active,  des2, 2019-01-11, 5d
+    予定タスク               :         des3, after des2, 6d
+    予定タスク2              :         des4, after des3, 6d
+&amp;lt;/div&amp;gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-plaintext&quot; data-lang=&quot;plaintext&quot;&gt;gantt
+    dateFormat  YYYY-MM-DD
+    title タスク管理
+    section 田中
+    完了タスク            :done,    des1, 2019-01-06,2019-01-08
+    作業中タスク               :active,  des2, 2019-01-09, 3d
+    予定タスク               :         des3, after des2, 5d
+    予定タスク2              :         des4, after des3, 5d
+    section 鈴木
+    完了タスク            :done,    des1, 2019-01-06,2019-01-10
+    作業中タスク               :active,  des2, 2019-01-11, 5d
+    予定タスク               :         des3, after des2, 6d
+    予定タスク2              :         des4, after des3, 6d&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;フローチャート-1&quot;&gt;フローチャート&lt;/h3&gt;
+&lt;script src=&quot;js/mermaid.js&quot;&gt;&lt;/script&gt;
+&lt;div class=&quot;mermaid&quot;&gt;
+graph TB
+  Macの選び方 --&amp;gt; 持ち歩く
+  持ち歩く --&amp;gt;|はい| スペック
+  持ち歩く --&amp;gt;|いいえ| 予算
+  スペック --&amp;gt;|必要| R1[MacBook Pro]
+  スペック --&amp;gt;|低くても良い| R2[MacBook Air]
+  予算 --&amp;gt; |いくらでもある| R3[Mac Pro]
+  予算 --&amp;gt; |できれば抑えたい| R4[Mac mini / iMac]
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-plaintext&quot; data-lang=&quot;plaintext&quot;&gt;graph TB
+  Macの選び方 --&amp;gt; 持ち歩く
+  持ち歩く --&amp;gt;|はい| スペック
+  持ち歩く --&amp;gt;|いいえ| 予算
+  スペック --&amp;gt;|必要| R1[MacBook Pro]
+  スペック --&amp;gt;|低くても良い| R2[MacBook Air]
+  予算 --&amp;gt; |いくらでもある| R3[Mac Pro]
+  予算 --&amp;gt; |できれば抑えたい| R4[Mac mini / iMac]&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;クラス図エンティティ図&quot;&gt;クラス図・エンティティ図&lt;/h3&gt;
+&lt;script src=&quot;js/mermaid.js&quot;&gt;&lt;/script&gt;
+&lt;div class=&quot;mermaid&quot;&gt;
+classDiagram
+  class ジョブ{
+    -int HP
+    -int MP
+    -たたかう()
+    -どうぐ(item)
+  }
+  class 黒魔術師{
+    -ファイア()
+  }
+  class 黒魔道師{
+    -ファイガ()
+    -メテオ()
+  }
+  class 白魔術師{
+    -ケアル()
+  }
+  class 白魔道師{
+    -ケアルガ()
+    -レイズ()
+  }
+  黒魔術師 &amp;lt;|-- 黒魔道師
+  白魔術師 &amp;lt;|-- 白魔道師
+  ジョブ &amp;lt;|-- 黒魔術師
+  ジョブ &amp;lt;|-- 白魔術師
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-plaintext&quot; data-lang=&quot;plaintext&quot;&gt;classDiagram
+  class ジョブ{
+    -int HP
+    -int MP
+    -たたかう()
+    -どうぐ(item)
+  }
+  class 黒魔術師{
+    -ファイア()
+  }
+  class 黒魔道師{
+    -ファイガ()
+    -メテオ()
+  }
+  class 白魔術師{
+    -ケアル()
+  }
+  class 白魔道師{
+    -ケアルガ()
+    -レイズ()
+  }
+  黒魔術師 &amp;lt;|-- 黒魔道師
+  白魔術師 &amp;lt;|-- 白魔道師
+  ジョブ &amp;lt;|-- 黒魔術師
+  ジョブ &amp;lt;|-- 白魔術師&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;###状態遷移図
+&lt;script src=&quot;js/mermaid.js&quot;&gt;&lt;/script&gt;&amp;lt;div class=&quot;mermaid&quot;&amp;gt;
+stateDiagram
+  [&lt;em&gt;] –&amp;gt; 待機
+  待機 –&amp;gt; [&lt;/em&gt;]
+  待機 –&amp;gt; 索敵
+  索敵 –&amp;gt; 待機
+  索敵 –&amp;gt; 威嚇射撃
+  威嚇射撃 –&amp;gt; [*]
+&amp;lt;/div&amp;gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-plaintext&quot; data-lang=&quot;plaintext&quot;&gt;stateDiagram
+  [*] --&amp;gt; 待機
+  待機 --&amp;gt; [*]
+  待機 --&amp;gt; 索敵
+  索敵 --&amp;gt; 待機
+  索敵 --&amp;gt; 威嚇射撃
+  威嚇射撃 --&amp;gt; [*]&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;ガントチャート-1&quot;&gt;ガントチャート&lt;/h3&gt;
+&lt;script src=&quot;js/mermaid.js&quot;&gt;&lt;/script&gt;
+&lt;div class=&quot;mermaid&quot;&gt;
+gantt
+  title PHPのライフサイクル
+  section PHP 7.2
+    アクティブサポート      : done, 2017-11-30, 2019-11-30
+    セキュリティサポート     : crit, 2020-11-30
+  section PHP7.3
+    アクティブサポート      : 2018-12-06, 2020-12-06
+    セキュリティサポート     : crit, 2021-12-06
+  section PHP7.4
+    アクティブサポート      : 2019-11-28, 2021-11-28
+    セキュリティサポート     : crit, 2022-11-28
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-plaintext&quot; data-lang=&quot;plaintext&quot;&gt;gantt
+  title PHPのライフサイクル
+  section PHP 7.2
+    アクティブサポート      : done, 2017-11-30, 2019-11-30
+    セキュリティサポート     : crit, 2020-11-30
+  section PHP7.3
+    アクティブサポート      : 2018-12-06, 2020-12-06
+    セキュリティサポート     : crit, 2021-12-06
+  section PHP7.4
+    アクティブサポート      : 2019-11-28, 2021-11-28
+    セキュリティサポート     : crit, 2022-11-28&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;円グラフ&quot;&gt;円グラフ&lt;/h3&gt;
+&lt;script src=&quot;js/mermaid.js&quot;&gt;&lt;/script&gt;
+&lt;div class=&quot;mermaid&quot;&gt;
+pie
+  &quot;iOS&quot;: 45.2
+  &quot;iPhone&quot;: 17.2
+  &quot;PHP&quot;: 8.6
+  &quot;Objective-C&quot;: 6.5
+  &quot;Swift&quot;: 6.5
+  &quot;Xcode&quot;: 4
+  &quot;Laravel&quot;: 3
+  &quot;Realm&quot;: 3
+  &quot;Android&quot;: 3
+  &quot;Others&quot;: 2
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-plaintext&quot; data-lang=&quot;plaintext&quot;&gt;pie
+  &quot;iOS&quot;: 45.2
+  &quot;iPhone&quot;: 17.2
+  &quot;PHP&quot;: 8.6
+  &quot;Objective-C&quot;: 6.5
+  &quot;Swift&quot;: 6.5
+  &quot;Xcode&quot;: 4
+  &quot;Laravel&quot;: 3
+  &quot;Realm&quot;: 3
+  &quot;Android&quot;: 3
+  &quot;Others&quot;: 2&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><category term="javascript" /><category term="library" /><category term="mermaid" /><category term="markdown" /><category term="diagram" /><summary type="html">repo     https://github.com/mermaid-js/mermaid 参考     https://fairplus.github.io/the-fair-cookbook/1/mermaidsetup.html jekyll-mermaid     https://github.com/jasonbellamy/jekyll-mermaid usage     https://mermaid-js.github.io/mermaid/#/</summary></entry><entry><title type="html">mermaid.js</title><link href="https://sat0ma014.github.io/2020/09/01/mermaid.html" rel="alternate" type="text/html" title="mermaid.js" /><published>2020-09-01T00:00:00+00:00</published><updated>2020-09-01T00:00:00+00:00</updated><id>https://sat0ma014.github.io/2020/09/01/mermaid</id><content type="html" xml:base="https://sat0ma014.github.io/2020/09/01/mermaid.html">&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;repo&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;https://github.com/mermaid-js/mermaid&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;参考&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;https://fairplus.github.io/the-fair-cookbook/1/mermaidsetup.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;jekyll-mermaid&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;https://github.com/jasonbellamy/jekyll-mermaid&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;usage&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;https://mermaid-js.github.io/mermaid/#/&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;参考
+https://mermaidjs.github.io/
+→mermaidの公式サイトです。こちらの記事で調査しました。大変お世話になりました。
+https://qiita.com/rana_kualu/items/da394fd33ce019bf0ba7&lt;/p&gt;
+
+&lt;div class=&quot;bc-1&quot;&gt;
+  &lt;div class=&quot;bc-2&quot;&gt;
+    &lt;a href=&quot;https://qiita.com/t_o_d/items/ac5b04419252f768a535&quot; class=&quot;bc-3&quot;&gt;
+	  &lt;img src=&quot;https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn.qiita.com%2Fassets%2Fpublic%2Farticle-ogp-background-1150d8b18a7c15795b701a55ae908f94.png?ixlib=rb-1.2.2&amp;amp;w=1200&amp;amp;mark=https%3A%2F%2Fqiita-user-contents.imgix.net%2F~text%3Fixlib%3Drb-1.2.2%26w%3D840%26h%3D380%26txt%3D%25E3%2580%2590%25E7%259B%25AE%25E7%259A%2584%25E7%2584%25A1%25E3%2581%2597%25E3%2581%25AE%25E6%25B3%25A5%25E8%2587%25AD%25E8%25AA%25BF%25E6%259F%25BB%25E2%2591%25A4%25E3%2580%2591mermaid.js%25E3%2581%25AE%25E8%25A8%2598%25E6%25B3%2595%25E3%2582%2592%25E8%25A6%259A%25E3%2581%2588%25E3%2581%25A6%25E3%2580%2581%25E6%25A5%25BD%25E3%2581%2597%25E3%2581%258F%25E5%259B%25B3%25E3%2582%2592%25E6%258F%258F%25E3%2581%258F%25E3%2580%2582%26txt-color%3D%2523333%26txt-font%3DHiragino%2520Sans%2520W6%26txt-size%3D54%26txt-clip%3Dellipsis%26txt-align%3Dcenter%252Cmiddle%26s%3D8260106dc5522c35db916ebe8c24917c&amp;amp;mark-align=center%2Cmiddle&amp;amp;blend=https%3A%2F%2Fqiita-user-contents.imgix.net%2F~text%3Fixlib%3Drb-1.2.2%26w%3D840%26h%3D500%26txt%3D%2540t_o_d%26txt-color%3D%2523333%26txt-font%3DHiragino%2520Sans%2520W6%26txt-size%3D45%26txt-align%3Dright%252Cbottom%26s%3D5046684b518710ebbcad332f5b9362ef&amp;amp;blend-align=center%2Cmiddle&amp;amp;blend-mode=normal&amp;amp;s=947bbfa5cb11091ae72d6b422355a709&quot; class=&quot;bc-4&quot; /&gt;
+	&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;p style=&quot;margin:0;&quot;&gt;
+    &lt;a href=&quot;https://qiita.com/t_o_d/items/ac5b04419252f768a535&quot; class=&quot;bc-5&quot;&gt;【目的無しの泥臭調査⑤】mermaid.jsの記法を覚えて、楽しく図を描く。 - Qiita&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p class=&quot;bc-6&quot;&gt; ふと気になったことを、淡々と赴くままに調査していく、この上ない自己満足記事第五弾。 効率的な学習ぶりの華麗で綺麗な振る舞いの「世の多くの賢人技術者」とは違い、ひたすらに画面遷移と手書き記録を高速回転しながら、心身共に泥まみれの学習ぶ...&lt;/p&gt;
+  &lt;div class=&quot;bc-7&quot;&gt;
+    &lt;p class=&quot;bc-8&quot;&gt;
+      &lt;img src=&quot;http://favicon.hatena.ne.jp/?url=https://qiita.com/t_o_d/items/ac5b04419252f768a535&quot; class=&quot;bc-favicon&quot; /&gt;qiita.com&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://qiita.com/t_o_d/items/ac5b04419252f768a535&quot; class=&quot;bc-hatebu&quot; /&gt;
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;サイトのデモソースをちゃんと追ったら、numberSectionStylesを1以上に設定したら、色設定がされるようになった。&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;mermaid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ganttConfig&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;numberSectionStyles&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 0:モノクロ, 1以上:色分けあり。数字は色分けするセクションの数。&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;div class=&quot;bc-1&quot;&gt;
+  &lt;div class=&quot;bc-2&quot;&gt;
+    &lt;a href=&quot;https://qiita.com/caesar_cat/items/e8a116a585863633d15a&quot; class=&quot;bc-3&quot;&gt;
+	  &lt;img src=&quot;https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn.qiita.com%2Fassets%2Fpublic%2Farticle-ogp-background-1150d8b18a7c15795b701a55ae908f94.png?ixlib=rb-1.2.2&amp;amp;w=1200&amp;amp;mark=https%3A%2F%2Fqiita-user-contents.imgix.net%2F~text%3Fixlib%3Drb-1.2.2%26w%3D840%26h%3D380%26txt%3Dmermaid.js%2520%25E3%2581%25A7%25E4%25B8%258A%25E6%25B5%2581%25E5%25B7%25A5%25E7%25A8%258B%25E3%2582%2592%25E5%25A5%25BD%25E3%2581%258D%25E3%2581%25AB%25E3%2581%25AA%25E3%2582%258D%25E3%2581%2586%26txt-color%3D%2523333%26txt-font%3DHiragino%2520Sans%2520W6%26txt-size%3D54%26txt-clip%3Dellipsis%26txt-align%3Dcenter%252Cmiddle%26s%3D448b9e547e9107c55a52dd748be00c88&amp;amp;mark-align=center%2Cmiddle&amp;amp;blend=https%3A%2F%2Fqiita-user-contents.imgix.net%2F~text%3Fixlib%3Drb-1.2.2%26w%3D840%26h%3D500%26txt%3D%2540caesar_cat%26txt-color%3D%2523333%26txt-font%3DHiragino%2520Sans%2520W6%26txt-size%3D45%26txt-align%3Dright%252Cbottom%26s%3D814fca679a746792fffd0804127eb5a8&amp;amp;blend-align=center%2Cmiddle&amp;amp;blend-mode=normal&amp;amp;s=d26ce78d34145764e060701aecf994ce&quot; class=&quot;bc-4&quot; /&gt;
+	&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;p style=&quot;margin:0;&quot;&gt;
+    &lt;a href=&quot;https://qiita.com/caesar_cat/items/e8a116a585863633d15a&quot; class=&quot;bc-5&quot;&gt;mermaid.js で上流工程を好きになろう - Qiita&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p class=&quot;bc-6&quot;&gt;   はじめに  立場上、数週間コードを書かずにパワポや Excel の仕様書を作るような上流工程を担当することが増えてきました。 もちろんそれはそれで大事なお仕事ですしそれなりにやり甲斐はありますが、クリックだけでポチポチと動かない...&lt;/p&gt;
+  &lt;div class=&quot;bc-7&quot;&gt;
+    &lt;p class=&quot;bc-8&quot;&gt;
+      &lt;img src=&quot;http://favicon.hatena.ne.jp/?url=https://qiita.com/caesar_cat/items/e8a116a585863633d15a&quot; class=&quot;bc-favicon&quot; /&gt;qiita.com&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://qiita.com/caesar_cat/items/e8a116a585863633d15a&quot; class=&quot;bc-hatebu&quot; /&gt;
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="javascript" /><category term="library" /><category term="mermaid" /><category term="markdown" /><category term="diagram" /><summary type="html">repo     https://github.com/mermaid-js/mermaid 参考     https://fairplus.github.io/the-fair-cookbook/1/mermaidsetup.html jekyll-mermaid     https://github.com/jasonbellamy/jekyll-mermaid usage     https://mermaid-js.github.io/mermaid/#/</summary></entry><entry><title type="html">macro_micro</title><link href="https://sat0ma014.github.io/2020/08/26/macro_micro.html" rel="alternate" type="text/html" title="macro_micro" /><published>2020-08-26T00:00:00+00:00</published><updated>2020-08-26T00:00:00+00:00</updated><id>https://sat0ma014.github.io/2020/08/26/macro_micro</id><content type="html" xml:base="https://sat0ma014.github.io/2020/08/26/macro_micro.html">&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;マクロ視点&lt;/th&gt;
+      &lt;th&gt;ミクロ視点&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;マクロ&lt;/td&gt;
+      &lt;td&gt;大きい視点&lt;/td&gt;
+      &lt;td&gt;帰納&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ミクロ&lt;/td&gt;
+      &lt;td&gt;事実&lt;/td&gt;
+      &lt;td&gt;演繹&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">マクロ視点 ミクロ視点   マクロ 大きい視点 帰納 ミクロ 事実 演繹</summary></entry><entry><title type="html">vim_ARC</title><link href="https://sat0ma014.github.io/2020/07/01/vim_ARC.html" rel="alternate" type="text/html" title="vim_ARC" /><published>2020-07-01T00:00:00+00:00</published><updated>2020-07-01T00:00:00+00:00</updated><id>https://sat0ma014.github.io/2020/07/01/vim_ARC</id><content type="html" xml:base="https://sat0ma014.github.io/2020/07/01/vim_ARC.html">&lt;p&gt;構築と設定のみ残しておきます&lt;/p&gt;
+&lt;h2 id=&quot;設定&quot;&gt;設定&lt;/h2&gt;
+&lt;p&gt;　 &lt;a href=&quot;https://qiita.com/sff1019/items/3f73856b78d7fa2731c7#1-%E8%87%AA%E5%88%86%E3%81%AEpc%E4%B8%8A%E3%81%AB%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E3%81%97%E3%81%A6%E4%BD%BF%E7%94%A8&quot;&gt;vimのカラースキームの設定・編集方法（初心者〜上級者） - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;　&lt;a href=&quot;https://qiita.com/lesguillemets/items/f4cdf359a89585ad1324&quot;&gt;Vim の割と新しいおすすめ colorscheme たちを紹介する - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;　&lt;a href=&quot;http://vimblog.hatenablog.com/entry/vimrc_set_bell_options&quot;&gt;Vim のカスタマイズ 〜 ビープの設定 〜 - Vim のブログ&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;プラグイン&quot;&gt;プラグイン&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;scrapbox.io/sat0ma014/vim_plugin&quot;&gt;vim_plugin&lt;/a&gt;
+  &lt;a href=&quot;scrapbox.io/sat0ma014/dein&quot;&gt;dein&lt;/a&gt;
+  &lt;a href=&quot;https://qiita.com/delphinus/items/00ff2c0ba972c6e41542&quot;&gt; NeoBundle から dein.vim に乗り換えたら爆速だった話&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;vimのパッケージ管理&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lambdalisue.hatenablog.com/entry/2013/06/23/071344&quot;&gt; Vimを最強のPython開発環境にする2 - Λlisue’s blog - https://lambdalisue.hatenablog.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://vim.blue/vim-right-click-menu-how-to-register/&quot;&gt; GVim/neovimの右クリックメニュー登録方法 [Windows 10] | Vim入門 - https://vim.blue/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qiita.com/s4kr4/items/b55896460e58a1737c76&quot;&gt; Vim/GVim =&amp;gt; Neovim/Neovim-qt 移行時にやったこと - Qiita - https://qiita.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-vim&quot; data-lang=&quot;vim&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;p&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/.config/&lt;/span&gt;nvic/init&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;vim&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-vim&quot; data-lang=&quot;vim&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;has&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'nvim'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+     &lt;span class=&quot;k&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;clipboard&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;unnamedplus
+ &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+     &lt;span class=&quot;k&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;clipboard&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;unnamed&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;autoselect
+ &lt;span class=&quot;k&quot;&gt;endif&lt;/span&gt;
+ 
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qrunch.net/@okayu/entries/mIRVHKCKSTRfcleX&quot;&gt;Neovimでイケイケなエディター環境を! | Qrunch（クランチ） - https://qrunch.net/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;set inccommand=split&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;===
+&lt;img src=&quot;scrapbox.io/sat0ma014.icon&quot; alt=&quot;sat0ma014.icon&quot; /&gt;[{! ここから未完成]
+&lt;a href=&quot;https://qiita.com/Ress/items/7e71e007cf8d41a07a1a&quot;&gt;NeoVim と dein.vim を使ってみる! - Qiita - https://qiita.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qiita.com/ysm001/items/8ae97cfdaae3f5fe79f4&quot;&gt;IDEっぽいvim環境を構築する.vimrcを書いた - Qiita - https://qiita.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qiita.com/ryuta69/items/98901f4c4f0683e7aa57&quot;&gt;vimって極めればvscode並のIDEになるんじゃないの？ - Qiita - https://qiita.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bi.biopapyrus.jp/os/linux/vim.html&quot;&gt; vim | 括弧の自動補完や文字コードの自動判別などに関する設定 - https://bi.biopapyrus.jp/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wonderwall.hatenablog.com/entry/2019/07/28/230000&quot;&gt;Vimメモ : Neovimで開発環境を段階的に構築する（1）インストールとcheckhealth - もた日記&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://dev.classmethod.jp/articles/vim-use-shellcommands/&quot;&gt;Vimで変態テキスト処理！シェルコマンドを使い倒す | Developers.IO - https://dev.classmethod.jp/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qiita.com/kooooooooooooooooohe/items/fb106e0a0f0969b4ee38&quot;&gt;Vim を使い DarkPowerを得る - Qiita - https://qiita.com/&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="vim" /><category term="configure" /><summary type="html">構築と設定のみ残しておきます 設定 　 vimのカラースキームの設定・編集方法（初心者〜上級者） - Qiita</summary></entry><entry><title type="html">You’re up and running!</title><link href="https://sat0ma014.github.io/2014/03/03/Hello-World.html" rel="alternate" type="text/html" title="You’re up and running!" /><published>2014-03-03T00:00:00+00:00</published><updated>2014-03-03T00:00:00+00:00</updated><id>https://sat0ma014.github.io/2014/03/03/Hello-World</id><content type="html" xml:base="https://sat0ma014.github.io/2014/03/03/Hello-World.html">&lt;p&gt;Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/config.png&quot; alt=&quot;_config.yml&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the &lt;a href=&quot;https://github.com/barryclark/jekyll-now&quot;&gt;Jekyll Now repository&lt;/a&gt; on GitHub.&lt;/p&gt;</content><author><name></name></author><summary type="html">Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).</summary></entry></feed>
